@@ -3,15 +3,12 @@
 ## Platform
 We are upgrading the DAaaS platform to run on Rocky 8 Linux. Up until now, we have upgraded our pre-production environment and will roll out the changes to production during the summer.
 
-## Scientific Software
+## Scientific Software and Workspaces
 We have been containerising scientific software to make it easy to install, upgrade and deploy. 
 
 If you are developing any software that aims to be deployed into DAaaS workspaces, packing it in an Apptainer is the fastest way to get it deployed. Please get in touch if you need any guidance.
 
-Details about software updates are [here](ScientificSoftware.md).
-
-## Workspaces
-We have started working on upgrading workspaces to Rocky 8 Linux. In the coming months, we will work with each research group to upgrade your workspaces to Rocky 8 along with the software deployed in the container.
+We have also started working on upgrading workspaces to Rocky 8 Linux. This will replace the aging CentOS7 Linux distribution we currently use. In the coming months, we will work with each instrument group one-by-one to upgrade your workspaces to Rocky 8 alongside redeploying all of the scientific software on your group's workspaces in Apptainer containers (Python packages and other appropriate software can be installed with Conda or Python virtual environments also). We will get in touch with each group by email before we begin this process.
 
 ## Data
 TO DO
