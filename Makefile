@@ -18,7 +18,9 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+	rm -rf docs/static
 	mv docs/html/_static docs/static
+	rm -rf docs/sources
 	mv docs/html/_sources docs/sources
 	mv docs/html/* docs
 	find docs -type f -exec sed -i '' -e 's/_static/static/g' {} \;
