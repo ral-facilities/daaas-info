@@ -31,5 +31,7 @@ By default, the generated html files would be in **docs/html**. The Makefile scr
 
 ### Commit and push the code, then check the site
 
-After code pushed, the site should be automatically updated. Check [github page settings](https://github.com/ral-facilities/daaas-info/settings/pages) if anything unexpected.
+After code pushed, the site should be automatically updated. 
+
+Check [github page settings](https://github.com/ral-facilities/daaas-info/settings/pages) if anything unexpected.
 
