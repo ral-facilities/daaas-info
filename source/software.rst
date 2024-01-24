@@ -1,7 +1,7 @@
 ===========================
 Scientific Software @ DAaaS
 ===========================
-.. list-table: Scientific Software
+.. list-table:: Scientific Software
     :widths: 50 20 15 15
     :header-rows: 1
 
@@ -20,7 +20,7 @@ Scientific Software @ DAaaS
     * - ASE <https://wiki.fysik.dtu.dk/ase/>
     * - Aten <https://www.projectaten.com/aten>
     * - ATSAS <https://www.embl-hamburg.de/biosaxs/software.html>
-    * - *Avizo <https://www.thermofisher.com/uk/en/home/industrial/electron-microscopy/electron-microscopy-instruments-workflow-solutions/3d-visualization-analysis-software/avizo-materials-science.html>`__
+    * - Avizo <https://www.thermofisher.com/uk/en/home/industrial/electron-microscopy/electron-microscopy-instruments-workflow-solutions/3d-visualization-analysis-software/avizo-materials-science.html>`__
     * - Cambridge Structural Database System (CSD-System) <https://www.ccdc.cam.ac.uk/solutions/csd-system/components/csd/>
     * - CellProfiler <https://cellprofiler.org/>
     * - Charmm <https://www.charmm.org/>
