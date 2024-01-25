@@ -6,3 +6,6 @@ Welcome to DAaaS Tech Updates
    
    2023-06-TechUpdate
    2024-01-TechUpdate
+   software
+   services
+   training
