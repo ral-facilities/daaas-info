@@ -1,8 +1,6 @@
 Services
 =========
 
-.. toctree::
-    :maxdepth: 1
 
 Incidents
 ---------
