@@ -1,6 +1,17 @@
+Scientific Software
 ===========================
-Scientific Software @ DAaaS
-===========================
+
+We have been containerising scientific software to make it easy to
+install, upgrade and deploy to DAaaS platform.
+
+If you are developing any software that aims to be deployed into DAaaS
+workspaces, packing it in `an
+Apptainer <https://apptainer.org/docs/user/latest/>`__ is the fastest
+way to get it deployed. Please get in touch if you need any guidance.
+
+A full list of scientific software on DAaaS platform is in section of 
+:doc:`software` below.
+
 .. list-table:: 
     :widths: 50 30 10 10
     :header-rows: 1
