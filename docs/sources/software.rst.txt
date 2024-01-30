@@ -108,6 +108,10 @@ A full list of scientific software on DAaaS platform is in section of
       - RPM
       - Yes
       - No
+    * - `Emacs <https://www.gnu.org/savannah-checkouts/gnu/emacs/emacs.html>`__
+      - Linux Package
+      - No
+      - Yes
     * - `epac_ct <https://www.clf.stfc.ac.uk/Pages/EPAC-introduction-page.aspx>`__
       - Conda
       - Yes
@@ -180,6 +184,14 @@ A full list of scientific software on DAaaS platform is in section of
       - Yum Package
       - Yes
       - No
+    * - `Ilastik <https://www.ilastik.org/>`__
+      - Application
+      - No
+      - Yes
+    * - `ImageJ <https://imagej.net/ij/index.html>`__
+      - Application
+      - No
+      - Yes
     * - `Jana2006 <http://jana.fzu.cz/>`__
       - Yum Package
       - Yes
@@ -188,9 +200,17 @@ A full list of scientific software on DAaaS platform is in section of
       - Apptainer
       - Yes
       - Yes
+    * - `JournalViewer <https://epubs.stfc.ac.uk/manifestation/27193192/RAL-TR-2016-002.pdf>`__
+      - Apptainer
+      - No
+      - Yes
     * - `Jupyter <https://jupyter.org/>`__
       - Pip Package
       - Yes
+      - Yes
+    * - `Krita <https://krita.org/en/>`__
+      - Ubuntu Package
+      - No
       - Yes
     * - `LabVIEW <https://www.ni.com/en-gb/shop/labview.html>`__
       - RPM
@@ -280,6 +300,10 @@ A full list of scientific software on DAaaS platform is in section of
       - Yum Package
       - Yes
       - No
+    * - `Napari <https://napari.org/stable/index.html>`__
+      - Pip Package
+      - No
+      - Yes
     * - `NSXTool <https://code.ill.fr/scientific-software/nsxtool>`__
       - Yum Package
       - Yes
@@ -308,6 +332,10 @@ A full list of scientific software on DAaaS platform is in section of
       - Apptainer
       - Yes
       - No
+    * - `Paraview <https://www.paraview.org/>`__
+      - Desktop Application
+      - No
+      - Yes
     * - `Phenix <https://phenix-online.org/>`__
       - RPM
       - Yes
@@ -352,6 +380,10 @@ A full list of scientific software on DAaaS platform is in section of
       - Apptainer & RPM
       - Yes
       - No
+    * - `RStudio <https://posit.co/products/open-source/rstudio/>`__
+      - IDE
+      - No
+      - Yes
     * - `SASfit <https://www.psi.ch/en/sinq/sansi/sasfit>`__
       - Apptainer
       - Yes
@@ -364,6 +396,10 @@ A full list of scientific software on DAaaS platform is in section of
       - Matlab Library
       - Yes
       - No
+    * - `Spyder <https://www.spyder-ide.org/>`__
+      - IDE
+      - No
+      - Yes
     * - `SRIM <http://srim.org/>`__
       - RPM
       - Yes
@@ -376,6 +412,10 @@ A full list of scientific software on DAaaS platform is in section of
       - Julia Package
       - Yes
       - No
+    * - `Tensorboard <https://www.tensorflow.org/tensorboard>`__
+      - Pip Package
+      - No
+      - Yes
     * - `VESTA <https://jp-minerals.org/vesta/en/>`__
       - Apptainer
       - Yes
@@ -388,7 +428,15 @@ A full list of scientific software on DAaaS platform is in section of
       - Yum Package
       - Yes
       - No
+    * - `VS Code <https://code.visualstudio.com/>`__
+      - IDE
+      - No
+      - Yes
     * - `WiMDA <http://shadow.nd.rl.ac.uk/wimda/>`__
       - Yum Package
       - Yes
       - No
+    * - `Zim <https://zim-wiki.org/>`__
+      - Ubuntu Package
+      - No
+      - Yes
