@@ -1,5 +1,5 @@
-Specifications
-===============
+ISIS Specifications
+===================
 
 .. list-table::
     :widths: 20 25 5 5 10 10 10 10 10
