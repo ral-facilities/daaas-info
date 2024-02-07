@@ -20,7 +20,7 @@ CLF Specifications
       - 8
       - 30
       - 5
-      - 15
+      - 10
       - GEMINI
       - GEMINI
     * - Artemis
@@ -29,7 +29,7 @@ CLF Specifications
       - 8
       - 30
       - 5
-      - 50
+      - 10
       - ARTEMIS
       - ARTEMIS
     * - Ultra CentOS7 (old)
@@ -38,7 +38,7 @@ CLF Specifications
       - 8
       - 30
       - 0
-      - 10
+      - 0
       - ULTRA
       - ULTRA
     * - Vulcan
@@ -46,8 +46,8 @@ CLF Specifications
       - 0
       - 8
       - 30
-      - 5
-      - 10
+      - 1
+      - 2
       - VULCAN
       - VULCAN
     * - Ultra
@@ -56,7 +56,7 @@ CLF Specifications
       - 8
       - 30
       - 5
-      - 25
+      - 20
       - ULTRA
       - ULTRA
     * - Octopus Standard
@@ -65,7 +65,7 @@ CLF Specifications
       - 30
       - 123
       - 3
-      - 20
+      - 10
       - OCTOPUS
       - OCTOPUS
     * - EPAC CT
@@ -83,6 +83,6 @@ CLF Specifications
       - 60
       - 245
       - 2
-      - 20
+      - 10
       - OCTOPUS
       - OCTOPUS
