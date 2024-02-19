@@ -7,19 +7,19 @@ updated: 2024-02
 Highlights
 ----------
 
-From 5 Feburary, IDAaaS users will not have access to ISIS archive. Instead, all instrument data are in ISIS Data Cache: **/data/instrument**. 
+From 05/02/2024, IDAaaS users will use ISIS Data Cache: **/data/instrument** for instrument data. 
 
 1. Desktop changes
 ~~~~~~~~~~~~~~~~~~
 
-* Data - Instrument Data (previousely was ISIS archive) is read-only, access-restricted data, copied from Instrument. 
-* Data - Analysis Data (previousely was RB directories) is read and writable for analysis. 
+* Data - Instrument Data is read-only, access-restricted data, copied from Instrument PCs. 
+* Data - Analysis Data is writable for analysis. 
 * Data - Experiment Archive (only for STFC staff)
 
 2. New data structure for instrument data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Structure data in Instrment/Year/RBnumber
+* Structure data in Instrument/Year/RBnumber
 
 **/data/instrument/ALF/2023/RB2300001**
 
