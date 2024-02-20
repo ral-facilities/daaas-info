@@ -44,8 +44,8 @@ CLF Specifications
     * - Octopus Development Sandbox
       - g-rtx4000.x1
       - 1
-      - 90
       - 12
+      - 90
       - 1
       - 2
       - OCTOPUS
