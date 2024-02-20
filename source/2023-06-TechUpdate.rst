@@ -35,4 +35,4 @@ from workspaces. All new workspaces will use ISIS Instrument Data Cache,
 which aligns with ISIS Data Policy.
 
 Details about ISIS Instrument Data Cache can be found in section of
-:doc:`isis-data-cache`.
+:doc:`isis-data-cache-2023`.
