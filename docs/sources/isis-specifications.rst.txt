@@ -126,6 +126,19 @@ ISIS Specifications
         | MARI
         | MERLIN
       - Excitations
+    * - Excitations Single Crystal Large
+      - l2.medium
+      - 0
+      - 60
+      - 247
+      - 1
+      - 2
+      - | ALF
+        | LET
+        | MAPS
+        | MARI
+        | MERLIN
+      - Excitations
     * - McStas
       - l2.small
       - 0

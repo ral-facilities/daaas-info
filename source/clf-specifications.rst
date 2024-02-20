@@ -41,7 +41,16 @@ CLF Specifications
       - 10
       - GEMINI
       - GEMINI
-    * - Octopus Advanced
+    * - Octopus Development Sandbox
+      - g-rtx4000.x1
+      - 1
+      - 90
+      - 12
+      - 1
+      - 2
+      - OCTOPUS
+      - OCTOPUS
+    * - Octopus Lightsheet
       - l2.medium
       - 0
       - 60
@@ -50,13 +59,13 @@ CLF Specifications
       - 10
       - OCTOPUS
       - OCTOPUS
-    * - Octopus Standard
-      - l2.small
-      - 0
-      - 30
-      - 123
-      - 3
-      - 10
+    * - Octopus SMLM Data Analysis
+      - g-rtx4000.x1
+      - 1
+      - 12
+      - 90
+      - 1
+      - 2
       - OCTOPUS
       - OCTOPUS
     * - Ultra
