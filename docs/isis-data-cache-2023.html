@@ -12,11 +12,11 @@
     <script src="static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script src="static/jquery.js?v=5d32c60e"></script>
-        <script src="static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="static/documentation_options.js?v=f2a433a1"></script>
-        <script src="static/doctools.js?v=888ff710"></script>
-        <script src="static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="static/jquery.js"></script>
+        <script src="static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script data-url_root="./" id="documentation_options" src="static/documentation_options.js"></script>
+        <script src="static/doctools.js"></script>
+        <script src="static/sphinx_highlight.js"></script>
     <script src="static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -103,10 +103,10 @@
            <div itemprop="articleBody">
              
   <section id="isis-instrument-data-cache-2023">
-<h1>ISIS Instrument Data Cache 2023<a class="headerlink" href="#isis-instrument-data-cache-2023" title="Link to this heading"></a></h1>
+<h1>ISIS Instrument Data Cache 2023<a class="headerlink" href="#isis-instrument-data-cache-2023" title="Permalink to this heading"></a></h1>
 <p>updated: 2023-06</p>
 <section id="brief">
-<h2>Brief<a class="headerlink" href="#brief" title="Link to this heading"></a></h2>
+<h2>Brief<a class="headerlink" href="#brief" title="Permalink to this heading"></a></h2>
 <p>We are still working towards disconnecting the Archive from the Workspaces and replacing it with the Instrument Data Cache.
 This is so we can make the service adhere to the <a class="reference external" href="https://www.isis.stfc.ac.uk/Pages/Data-Policy.aspx">ISIS Data Policy</a>.
 This is just a change to the Workspaces and will not impact the Archive in any other way.
@@ -118,7 +118,7 @@ Data assigned an RB Number that is not in the Scheduler will be put in a directo
 <p>If you need to access older data, you can download it from <a class="reference external" href="https://data.isis.stfc.ac.uk/">DataGateway</a>.</p>
 </section>
 <section id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading"></a></h2>
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading"></a></h2>
 <p>The ISIS Instrument Data Cache is an alternative to the ISIS Archive on
 IDAaaS. The ISIS Data Cache is a store of instrument data located on
 SCD’s Ceph storage cluster that contains data copied directly from
@@ -127,7 +127,7 @@ instrument PCs as it is produced.</p>
 Data Cache so that you will have access to past data.</p>
 </section>
 <section id="why">
-<h2>Why?<a class="headerlink" href="#why" title="Link to this heading"></a></h2>
+<h2>Why?<a class="headerlink" href="#why" title="Permalink to this heading"></a></h2>
 <p>Data in the cache is access-restricted so that only members of the
 relevant experiment group and instrument scientists will have access to
 the data, whilst nobody else will be able to access the data.</p>
@@ -136,7 +136,7 @@ ISIS data policy, which specifies an embargo period of 3 years on
 experiment data.</p>
 </section>
 <section id="how-frequently-is-the-data-updated">
-<h2>How frequently is the data updated?<a class="headerlink" href="#how-frequently-is-the-data-updated" title="Link to this heading"></a></h2>
+<h2>How frequently is the data updated?<a class="headerlink" href="#how-frequently-is-the-data-updated" title="Permalink to this heading"></a></h2>
 <p>We are running a service called the Cache Updater which will check
 periodically (ideally at least every 10 seconds) to see if there are any
 new files to be copied from instrument PCs.</p>
@@ -144,7 +144,7 @@ new files to be copied from instrument PCs.</p>
 minutes depending on the file size.</p>
 </section>
 <section id="what-data-are-captured">
-<h2>What data are captured?<a class="headerlink" href="#what-data-are-captured" title="Link to this heading"></a></h2>
+<h2>What data are captured?<a class="headerlink" href="#what-data-are-captured" title="Permalink to this heading"></a></h2>
 <p>All run files should be captured, for RB pre-fixed experiments (listed
 below) will be in RB folders, others will be in a folder called Unknown.</p>
 <table class="docutils align-default">
@@ -206,7 +206,7 @@ RB1524325</p></td>
 </table>
 </section>
 <section id="how-to-access-the-data-cache">
-<h2>How to access the Data Cache?<a class="headerlink" href="#how-to-access-the-data-cache" title="Link to this heading"></a></h2>
+<h2>How to access the Data Cache?<a class="headerlink" href="#how-to-access-the-data-cache" title="Permalink to this heading"></a></h2>
 <p>Please access the shortcut under Data on the Applications menu called
 “Instrument Data Cache” at your workspaces.</p>
 <p>This will take you to the data cache via the file browser GUI. For
@@ -214,7 +214,7 @@ command line access, there is a symlink at /data/cache which points to
 the cache directory.</p>
 </section>
 <section id="where-to-find-the-data">
-<h2>Where to find the data?<a class="headerlink" href="#where-to-find-the-data" title="Link to this heading"></a></h2>
+<h2>Where to find the data?<a class="headerlink" href="#where-to-find-the-data" title="Permalink to this heading"></a></h2>
 <p>The data cache has the following directory structure:
 <strong>INSTRUMENT/YEAR/RB NUMBER</strong></p>
 <p>For example, to find instrument data from the 2022 WISH experiment
@@ -235,14 +235,14 @@ experiment so that it can be matched to an experiment record on the
 Scheduler and thus be placed in the correct folder.</p>
 </section>
 <section id="monitoring-and-alerting">
-<h2>Monitoring and Alerting<a class="headerlink" href="#monitoring-and-alerting" title="Link to this heading"></a></h2>
+<h2>Monitoring and Alerting<a class="headerlink" href="#monitoring-and-alerting" title="Permalink to this heading"></a></h2>
 <p>We have monitoring and alerting system set up so that we should be
 alerted if the Cache Updater service goes down. Alerts will be sent and
 responded to both during the day and out-ofhours for this service so
 that disruption to instrument data access is minimized.</p>
 </section>
 <section id="support">
-<h2>Support<a class="headerlink" href="#support" title="Link to this heading"></a></h2>
+<h2>Support<a class="headerlink" href="#support" title="Permalink to this heading"></a></h2>
 <p>Get in touch if you have any queries: <a class="reference external" href="mailto:supportanalysis&#37;&#52;&#48;stfc&#46;ac&#46;uk">supportanalysis<span>&#64;</span>stfc<span>&#46;</span>ac<span>&#46;</span>uk</a>.</p>
 </section>
 </section>
