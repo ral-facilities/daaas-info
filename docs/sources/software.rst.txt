@@ -125,7 +125,7 @@ A full list of scientific software on DAaaS platform is in section of
       - Yes
       - No
     * - `Fiji <https://fiji.sc/>`__
-      - Apptainer
+      - RPM & Apptainer
       - Yes
       - Yes
     * - `FullProf <https://www.ill.eu/sites/fullprof/index.html>`__
@@ -176,6 +176,10 @@ A full list of scientific software on DAaaS platform is in section of
       - Matlab Package
       - Yes
       - No
+    * - `Huygens <https://svi.nl/Huygens-Software>`__
+      - RPM & Apptainer
+      - Yes
+      - No
     * - `Icy <http://icy.bioimageanalysis.org/>`__
       - RPM
       - Yes
@@ -186,7 +190,7 @@ A full list of scientific software on DAaaS platform is in section of
       - No
     * - `Ilastik <https://www.ilastik.org/>`__
       - Application
-      - No
+      - Yes
       - Yes
     * - `ImageJ <https://imagej.net/ij/index.html>`__
       - Application
@@ -356,6 +360,10 @@ A full list of scientific software on DAaaS platform is in section of
       - Apptainer
       - Yes
       - No
+    * - `R <https://www.r-project.org/>`__
+      - Yum Package
+      - Yes
+      - Yes
     * - `Radia <https://www.esrf.eu/Accelerators/Groups/InsertionDevices/Software/Radia/>`__
       - Yum Package
       - Yes
@@ -398,7 +406,7 @@ A full list of scientific software on DAaaS platform is in section of
       - No
     * - `Spyder <https://www.spyder-ide.org/>`__
       - IDE
-      - No
+      - Yes
       - Yes
     * - `SRIM <http://srim.org/>`__
       - RPM
@@ -414,7 +422,7 @@ A full list of scientific software on DAaaS platform is in section of
       - No
     * - `Tensorboard <https://www.tensorflow.org/tensorboard>`__
       - Pip Package
-      - No
+      - Yes
       - Yes
     * - `VESTA <https://jp-minerals.org/vesta/en/>`__
       - Apptainer
@@ -430,13 +438,13 @@ A full list of scientific software on DAaaS platform is in section of
       - No
     * - `VS Code <https://code.visualstudio.com/>`__
       - IDE
-      - No
+      - Yes
       - Yes
     * - `WiMDA <http://shadow.nd.rl.ac.uk/wimda/>`__
       - Yum Package
       - Yes
       - No
     * - `Zim <https://zim-wiki.org/>`__
-      - Ubuntu Package
-      - No
+      - Ubuntu Package & Apptainer
+      - Yes
       - Yes
