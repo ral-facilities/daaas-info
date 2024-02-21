@@ -24,7 +24,7 @@ Year 2023
 ~~~~~~~~~
 
 .. list-table:: 
-    :widths: 50 30 20 20 20 20
+    :widths: 50 30 20 20 20 20 20
     :header-rows: 1
 
     * - Course
