@@ -42,7 +42,7 @@ Year 2023
       - 12
       - Franz Lang
     * - CCP-WSI OpenFOAM Parallel Performance Training
-      - `Detail <https://ccp-wsi.ac.uk/events/training/openfoam-parallel-performance-engineering-workshop/>`_
+      - `CCP-WSI <https://ccp-wsi.ac.uk/events/training/openfoam-parallel-performance-engineering-workshop/>`_
       - Scientific Computing Computational Engineering 
       - 05/06/2023
       - 06/06/2023
@@ -70,14 +70,14 @@ Year 2023
       - 70
       - Agnel Praveen Joseph
     * - High power laser training weeks
-      - `Detail <https://www.laserlab-europe.eu/events/laserlab-events/2023/clf-training-weeks-for-high-power-laser-experiments-4-29-september-2023-didcot-oxford-uk>`_
+      - `HPL September <https://www.laserlab-europe.eu/events/laserlab-events/2023/clf-training-weeks-for-high-power-laser-experiments-4-29-september-2023-didcot-oxford-uk>`_
       - CLF Gemini
       - 04/09/2023
       - 22/09/2023
       - 15
       - Stephen Dann
     * - IBSim 4i 2023
-      - `Detail <https://ibsim.co.uk/events/ibsim-4i/>`_
+      - `IBSim <https://ibsim.co.uk/events/ibsim-4i/>`_
       - Scientific Computing Tomography 
       - 09/10/2023
       - 10/10/2023
@@ -91,7 +91,7 @@ Year 2023
       - 25
       - Stephno Ralfo
     * - High power laser training weeks
-      - `Detail <https://www.laserlab-europe.eu/events/laserlab-events/2023/clf-training-weeks-for-high-power-laser-experiments-4-29-september-2023-didcot-oxford-uk>`_
+      - 
       - CLF Gemini
       - 03/11/2023
       - 17/11/2023
