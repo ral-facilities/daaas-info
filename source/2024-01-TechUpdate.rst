@@ -7,6 +7,7 @@ ISIS DAaaS Tech Update - January 2024
    isis-data-cache-2024
    isis-specifications
    training
+   services
    
 Workspaces
 ----------
