@@ -32,14 +32,18 @@ Check out our `Training site <https://training.analysis.stfc.ac.uk/>`_ if you ar
 
 To-do list from Tech Update 01/2024
 -----------------------------------
-0. Cycle folders are available along with the new data structure for instrument data (Done)
+0. Keep cycle folder structure as it was in Archive. (Done)
 
-1. The workspace claim page will display available workspaces.
+1. Files in RB0 folders are also available from Cycle folders. (Done)
 
-2. Develop a solution for managing data with unknown RB numbers.
+2. The workspace claim page will display available workspaces.
 
-3. Work out a better method to mount the ISIS archive for instrument scientists.
+3. Develop a solution for managing data with unknown RB numbers.
 
-4. Work out a better way to help instrument scientists setting up Mantid default directories.
+4. Work out a better way to mount the ISIS archive efficiently for instrument scientists.
 
-5. ISIS research groups are to review their workspace specs.
+5. Work out a better way to help instrument scientists setting up Mantid default directories. (with Mantid team)
+
+6. Work out a solution for moving files from one RB folder to the other when it was incorrectly scheduled. 
+
+7. ISIS research groups are to review :doc:`isis-specifications`.
