@@ -19,7 +19,9 @@ extensions = []
 templates_path = ['templates']
 exclude_patterns = []
 
-
+html_css_files = [
+    'site.css',
+]
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
