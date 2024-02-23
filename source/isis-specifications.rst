@@ -1,6 +1,13 @@
 ISIS Specifications
 ===================
 
+Updated: 2024-02
+
+Notes:
+* Pool size: The number of workspaces (VMs) available of a type to be claimed by the users.
+* Max size: The maximum number of one type workspaces that can be used at the same time.
+* If max number of workspaces are claimed, no more workspaces will be built in the pool.
+
 .. list-table::
     :widths: 20 25 5 5 10 10 10 10 10
     :header-rows: 1
