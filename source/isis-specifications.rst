@@ -31,7 +31,7 @@ Notes:
       - l2.medium
       - 0
       - 60
-      - 247
+      - 245
       - 2
       - 5
       - | HRPD
@@ -42,25 +42,6 @@ Notes:
         | WISH
       - | Crystallography
         | 
-        |
-        |
-        |
-        | Crystallography/Powder Defraction/Single Crystal
-    * - Crystallography Rocky 8 testing
-      - l2.medium
-      - 0
-      - 60
-      - 247
-      - 3
-      - 10
-      - | HRPD
-        | INES
-        | PEARL
-        | POLARIS
-        | SXD
-        | WISH
-      - | Crystallography
-        |
         |
         |
         |
@@ -103,7 +84,7 @@ Notes:
     * - Excitations Instrument Diagnostic
       - g-rtx4000.x1
       - 1
-      - 10
+      - 12
       - 90
       - 1
       - 5
@@ -117,7 +98,7 @@ Notes:
       - l3.tiny
       - 0
       - 8
-      - 32
+      - 30
       - 5
       - 50
       - | ALF
@@ -130,7 +111,7 @@ Notes:
       - l2.small
       - 0
       - 30
-      - 124
+      - 123
       - 2
       - 60
       - | ALF
@@ -156,7 +137,7 @@ Notes:
       - l2.small
       - 0
       - 30
-      - 124
+      - 123
       - 2
       - 10
       - NMIDG
@@ -165,7 +146,7 @@ Notes:
       - l2.small
       - 0
       - 30
-      - 124
+      - 123
       - 7
       - 46
       - | IRIS
@@ -177,20 +158,8 @@ Notes:
       - l2.medium
       - 0
       - 60
-      - 247
+      - 245
       - 2
-      - 10
-      - | IRIS
-        | OSIRIS
-        | TOSCA
-        | VESUVIO
-      - Molecular Spectroscopy
-    * - Molecular Spectroscopy Rocky 8 testing
-      - l2.small
-      - 0
-      - 30
-      - 124
-      - 3
       - 10
       - | IRIS
         | OSIRIS
@@ -201,21 +170,8 @@ Notes:
       - l3.micro
       - 0
       - 4
-      - 15
+      - 16
       - 5
-      - 30
-      - | ARGUS
-        | CHRONUS
-        | EMU
-        | HIFI
-        | MUSR
-      - Muon
-    * - Muon Rocky 8 testing
-      - l3.tiny
-      - 0
-      - 4
-      - 15
-      - 3
       - 30
       - | ARGUS
         | CHRONUS
@@ -253,22 +209,9 @@ Notes:
       - l2.small
       - 0
       - 30
-      - 124
+      - 123
       - 3
       - 50
-      - | CRISP
-        | INTER
-        | OFFSPEC
-        | POLREF
-        | SURF
-      - Reflectometry
-    * - Reflectometry Rocky 8 testing
-      - l2.xsmall
-      - 0
-      - 16
-      - 60
-      - 3
-      - 15
       - | CRISP
         | INTER
         | OFFSPEC
@@ -290,7 +233,7 @@ Notes:
       - l2.small
       - 0
       - 30
-      - 124
+      - 123
       - 5
       - 30
       - SANS2D
@@ -298,7 +241,7 @@ Notes:
     * - SANS GPU
       - g-rtx4000.x1
       - 1
-      - 10
+      - 12
       - 90
       - 1
       - 5
@@ -306,18 +249,6 @@ Notes:
         | LOQ
         | SANS2D
         | ZOOM
-      - Small Angle Scattering
-    * - SANS Rocky 8 testing
-      - l2.xsmall
-      - 0
-      - 16
-      - 60
-      - 3
-      - 10
-      - | LARMOR
-        | LOQ
-        | ZOOM
-        | SANS2D
       - Small Angle Scattering
     * - Tomography Advanced
       - g-rtx4000.x2
@@ -340,7 +271,7 @@ Notes:
     * - Tomography Recommended
       - g-rtx4000.x1
       - 1
-      - 10
+      - 12
       - 90
       - 3
       - 20
@@ -350,7 +281,7 @@ Notes:
       - l2.small
       - 0
       - 30
-      - 124
+      - 123
       - 3
       - 30
       - WISH
