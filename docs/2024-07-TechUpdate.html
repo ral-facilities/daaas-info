@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ISIS DAaaS Tech Update - January 2024 &mdash; daaas 1.0 documentation</title>
+  <title>ISIS DAaaS Tech Update - July 2024 &mdash; daaas 1.0 documentation</title>
       <link rel="stylesheet" href="static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="static/site.css" type="text/css" />
@@ -20,8 +20,8 @@
     <script src="static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="ISIS Instrument Data Cache 2024" href="isis-data-cache-2024.html" />
-    <link rel="prev" title="ISIS Instrument Data Cache 2023" href="isis-data-cache-2023.html" />
+    <link rel="next" title="Scientific Computing" href="scientific-computing.html" />
+    <link rel="prev" title="Services" href="services.html" />
     <link href="('static/site.css', True)" rel="stylesheet" type="text/css">
 
 </head>
@@ -49,19 +49,14 @@
 <li class="toctree-l1"><a class="reference internal" href="clf.html">CLF</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="isis.html">ISIS</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="2023-06-TechUpdate.html">ISIS DAaaS Tech Update - June 2023</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">ISIS DAaaS Tech Update - January 2024</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="isis-data-cache-2024.html">ISIS Instrument Data Cache 2024</a></li>
-<li class="toctree-l3"><a class="reference internal" href="isis-specifications.html">ISIS Specifications</a></li>
-<li class="toctree-l3"><a class="reference internal" href="training.html">Training</a></li>
-<li class="toctree-l3"><a class="reference internal" href="services.html">Services</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2024-01-TechUpdate.html">ISIS DAaaS Tech Update - January 2024</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">ISIS DAaaS Tech Update - July 2024</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#workspaces">Workspaces</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#data">Data</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#specification">Specification</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#instrument-data-cache">Instrument Data Cache</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#training">Training</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#to-do-list-from-tech-update-01-2024">To-do list from Tech Update 01/2024</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#to-do-list-from-tech-update-january-2024">To-do list from Tech Update January 2024</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="2024-07-TechUpdate.html">ISIS DAaaS Tech Update - July 2024</a></li>
 <li class="toctree-l2"><a class="reference internal" href="isis-specifications.html">ISIS Specifications</a></li>
 </ul>
 </li>
@@ -86,9 +81,9 @@
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="isis.html">ISIS</a></li>
-      <li class="breadcrumb-item active">ISIS DAaaS Tech Update - January 2024</li>
+      <li class="breadcrumb-item active">ISIS DAaaS Tech Update - July 2024</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="sources/2024-01-TechUpdate.rst.txt" rel="nofollow"> View page source</a>
+            <a href="sources/2024-07-TechUpdate.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -96,45 +91,50 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="isis-daaas-tech-update-january-2024">
-<h1>ISIS DAaaS Tech Update - January 2024<a class="headerlink" href="#isis-daaas-tech-update-january-2024" title="Link to this heading"></a></h1>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="isis-data-cache-2024.html">ISIS Instrument Data Cache 2024</a></li>
-<li class="toctree-l1"><a class="reference internal" href="isis-specifications.html">ISIS Specifications</a></li>
-<li class="toctree-l1"><a class="reference internal" href="training.html">Training</a></li>
-<li class="toctree-l1"><a class="reference internal" href="services.html">Services</a></li>
-</ul>
-</div>
+  <section id="isis-daaas-tech-update-july-2024">
+<h1>ISIS DAaaS Tech Update - July 2024<a class="headerlink" href="#isis-daaas-tech-update-july-2024" title="Link to this heading"></a></h1>
+<p>This is an update on work to the ISIS data analysis service since the last tech update in January 2024.</p>
 <section id="workspaces">
 <h2>Workspaces<a class="headerlink" href="#workspaces" title="Link to this heading"></a></h2>
-<p>Rocky Linux 8 is available on all workspaces from <strong>5 February 2024</strong>.</p>
-<p>Many thanks to all the instrument scientists at the ISIS facility who have assisted in testing the new workspaces since September 2023.</p>
+<p>Based on feedback received in the January tech update, we have added a feature to the website that shows instrument scientists how many
+workspaces of each type are in use and the maximum number that can be claimed.</p>
+<p>This can be seen by navigating to the create workspace page and selecting a type of workspace.</p>
 </section>
-<section id="data">
-<h2>Data<a class="headerlink" href="#data" title="Link to this heading"></a></h2>
-<p>ISIS Data cache is the main data source for instrument data from <strong>5 February 2024</strong>.</p>
-<p>The summary of changes and follow-up actions after the Tech Update can be found in Section <a class="reference internal" href="isis-data-cache-2024.html"><span class="doc">ISIS Instrument Data Cache 2024</span></a>.</p>
-</section>
-<section id="specification">
-<h2>Specification<a class="headerlink" href="#specification" title="Link to this heading"></a></h2>
-<p><a class="reference internal" href="isis-specifications.html"><span class="doc">ISIS Specifications</span></a> of all workspaces are here for review. Please send feedback to our support if any updates needed.</p>
+<section id="instrument-data-cache">
+<h2>Instrument Data Cache<a class="headerlink" href="#instrument-data-cache" title="Link to this heading"></a></h2>
+<p>In February we replaced the ISIS Archive with the Instrument Data Cache as the primary means to access instrument data
+on DAaaS workspaces.</p>
+<p>Since we deployed the Instrument Data Cache, we have made several changes to it based on user feedback.</p>
+<p>1. Data can now be looked up by cycle number in addition to the calendar year it was produced. For example, to find WISH data
+produced in cycle 24/1, one could navigate to /data/instrument/WISH/CYCLE20241 and find all RBs from that cycle, in a manner similar to the
+ISIS Archive</p>
+<p>2. Initially, we allows the ISIS Archive to be mounted again by entering your federal credentials. Instead, the Archive is now automatically
+mounted for instrument scientists. There were also complaints that the mount was slow, this should be resolved now.</p>
+<ol class="arabic simple" start="3">
+<li><p>As of Mantid 6.10, Mantid should now be able to quickly look up runs on the instrument data cache.</p></li>
+</ol>
+<p>4. We have developed an interface that allows instrument scientists to move batches of run data around on the data cache. This will
+be part of the data section of the website. It will be available for testing as part of a wider update to the website in coming months.</p>
+<img alt="_images/cache_mover.jpg" src="_images/cache_mover.jpg" />
+<p>Once this has been deployed we can make progress on a solution for Xpress experiments</p>
 </section>
 <section id="training">
 <h2>Training<a class="headerlink" href="#training" title="Link to this heading"></a></h2>
-<p>Check out our <a class="reference external" href="https://training.analysis.stfc.ac.uk/">Training site</a> if you are an organizer of conferences, workshops or training courses.</p>
+<p>Several training courses have been run using our training platform including the Neutron training course and a workshop for the
+Disordered Materials UGM.</p>
+<p>If you are interested in running a course, check out our <a class="reference external" href="https://training.analysis.stfc.ac.uk/">Training site</a></p>
 </section>
-<section id="to-do-list-from-tech-update-01-2024">
-<h2>To-do list from Tech Update 01/2024<a class="headerlink" href="#to-do-list-from-tech-update-01-2024" title="Link to this heading"></a></h2>
+<section id="to-do-list-from-tech-update-january-2024">
+<h2>To-do list from Tech Update January 2024<a class="headerlink" href="#to-do-list-from-tech-update-january-2024" title="Link to this heading"></a></h2>
 <ol class="arabic simple" start="0">
 <li><p>Keep cycle folder structure as it was in Archive. (Done)</p></li>
 <li><p>Files in RB0 folders are also available from Cycle folders. (Done)</p></li>
-<li><p>The workspace claim page will display available workspaces.</p></li>
-<li><p>Develop a solution for managing data with unknown RB numbers.</p></li>
-<li><p>Work out a better way to mount the ISIS archive efficiently for instrument scientists.</p></li>
-<li><p>Work out a better way to help instrument scientists setting up Mantid default directories. (with Mantid team)</p></li>
-<li><p>Work out a solution for moving files from one RB folder to the other when it was incorrectly scheduled.</p></li>
-<li><p>ISIS research groups are to review <a class="reference internal" href="isis-specifications.html"><span class="doc">ISIS Specifications</span></a>.</p></li>
+<li><p>The workspace claim page will display available workspaces. (Done)</p></li>
+<li><p>Develop a solution for managing data with unknown RB numbers. (WIP)</p></li>
+<li><p>Work out a better way to mount the ISIS archive efficiently for instrument scientists. (Done)</p></li>
+<li><p>Work out a better way to help instrument scientists setting up Mantid default directories. (Done)</p></li>
+<li><p>Work out a solution for moving files from one RB folder to the other when it was incorrectly scheduled. (WIP)</p></li>
+<li><p>ISIS research groups are to review <a class="reference internal" href="isis-specifications.html"><span class="doc">ISIS Specifications</span></a>. (Done)</p></li>
 </ol>
 </section>
 </section>
@@ -143,8 +143,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="isis-data-cache-2023.html" class="btn btn-neutral float-left" title="ISIS Instrument Data Cache 2023" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="isis-data-cache-2024.html" class="btn btn-neutral float-right" title="ISIS Instrument Data Cache 2024" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="services.html" class="btn btn-neutral float-left" title="Services" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="scientific-computing.html" class="btn btn-neutral float-right" title="Scientific Computing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
