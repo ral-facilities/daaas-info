@@ -21,22 +21,22 @@ Since we deployed the Instrument Data Cache, we have made several changes to it 
 produced in cycle 24/1, one could navigate to /data/instrument/WISH/CYCLE20241 and find all RBs from that cycle, in a manner similar to the
 ISIS Archive
 
-2. Initially, we allows the ISIS Archive to be mounted again by entering your federal credentials. Instead, the Archive is now automatically 
-mounted for instrument scientists. There were also complaints that the mount was slow, this should be resolved now.
+2. Initially, we allowed the ISIS Archive to be mounted again by entering your federal credentials. Instead, the Archive is now automatically 
+mounted for instrument scientists. There were also complaints that the mount was slow, but this should be resolved now.
 
 3. As of Mantid 6.10, Mantid should now be able to quickly look up runs on the instrument data cache.
 
 4. We have developed an interface that allows instrument scientists to move batches of run data around on the data cache. This will
 be part of the data section of the website. It will be available for testing as part of a wider update to the website in coming months.
 
-.. image:: /images/techupdate202407/cache_mover.jpg
+.. image:: images/techupdate202407/cache_mover.jpg
 
-Once this has been deployed we can make progress on a solution for Xpress experiments
+Once this has been deployed we can make progress on a solution for Xpress experiments.
 
 Training
 ----
 
-Several training courses have been run using our training platform including the Neutron training course and a workshop for the
+Several training courses have been run using our training platform including the Neutron Training Course and a workshop for the
 Disordered Materials UGM.
 
 If you are interested in running a course, check out our `Training site <https://training.analysis.stfc.ac.uk/>`_
