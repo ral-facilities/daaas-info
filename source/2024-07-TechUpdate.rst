@@ -29,7 +29,7 @@ mounted for instrument scientists. There were also complaints that the mount was
 4. We have developed an interface that allows instrument scientists to move batches of run data around on the data cache. This will
 be part of the data section of the website. It will be available for testing as part of a wider update to the website in coming months.
 
-.. image:: source/images/techupdate202407/cache_mover.jpg
+.. image:: images/techupdate202407/cache_mover.jpg
 
 Once this has been deployed we can make progress on a solution for Xpress experiments.
 
